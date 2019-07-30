@@ -220,15 +220,24 @@ body {
     border: 0 none;
   }
 
-  @media screen and (max width: 980px){
-
+  /* large devices (laptops/desktops) */
+  @media screen and (max width:980px){
+    #main-container{
+      width: 100%;
+    }
   }
 
-  @media screen and (max width: 768px){
-
+  /* medium devices (landscape tablets) */
+  @media screen and (max width:768px){
+    #main-container{
+      width: 100%;
+    }
   }
 
-  @media screen and (max width: 640px){
-    
+  /* small devices (phones) */
+  @media screen and (max width:640px){
+    #main-container{
+      width: 100%;
+    }
   }
   
