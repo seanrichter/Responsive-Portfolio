@@ -222,22 +222,22 @@ body {
 
   /* large devices (laptops/desktops) */
   @media screen and (max width:980px){
-    #main-container{
+    #container{
       width: 100%;
     }
   }
 
   /* medium devices (landscape tablets) */
   @media screen and (max width:768px){
-    #main-container{
+    #container{
       width: 100%;
     }
   }
 
   /* small devices (phones) */
   @media screen and (max width:640px){
-    #main-container{
-      width: 100%;
+    #container{
+      width: 320px;
     }
   }
   
